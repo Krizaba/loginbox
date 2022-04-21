@@ -1,20 +1,89 @@
-        body {
-            margin: 0;
-            padding: 0;
-            background: url(https://i.ibb.co/jHmYrhn/enverlopesjpg-JPG.jpg) no-repeat;
-            background-size: cover;
-            background-position: center;
-            font-family: sans-serif;
-        }
-        
-        .loginbox {
-            width: 320px;
-            height: 420px;
-            background: #000;
-            color: #fff;
-            top: 50%;
-            left: 50%;
-            position: absolute;
-            box-sizing: border-box;
-            transform: translate(-50%, -50%);
-        }
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.ibb.co/jHmYrhn/enverlopesjpg-JPG.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    border-radius: 8px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(30%);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0%;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #aaadc9;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #454a7d;
+    color: #fff;
+    transform: scale(102%);
+    transition: 0.3s;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: rgb(255, 255, 255);
+}
